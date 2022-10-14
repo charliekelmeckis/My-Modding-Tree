@@ -22,7 +22,7 @@ addLayer("k", {
     },
     row: 0, // Row the layer is in on the tree (0 is the first row)
     hotkeys: [
-        {key: "k", description: "K: Reset for what points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
+        {key: "k", description: "K: Reset for da points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
 })
